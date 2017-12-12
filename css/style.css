@@ -1,0 +1,156 @@
+body {
+	font-family: 'Chivo', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	height: 1400px;
+}
+
+#hero {
+	background-image: url('../img/student.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	padding: 2em 2.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	color: #fff;
+}
+
+#logo {
+	width: 100px;
+	height: 87px;
+}
+
+#brand {
+	display: flex;
+	margin-top: 2em;
+	width: 300px;
+	text-transform: uppercase;
+	line-height: 2.6em;
+	font-weight: bold;
+	align-self: flex-start;
+}
+
+#title {
+	font-size: 3em;
+}
+
+#lead-text {
+	text-align: right;
+	width: 75%;
+
+}
+
+#lead-text h2 {
+	font-size: 2.7em;
+	font-weight: bold;
+}
+
+.text-italic {
+	font-style: italic;
+	font-size: .5em;
+	font-weight: 400;
+}
+
+#lead-text p {
+	font-size: 1.3em;
+}
+
+#menu {
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.3em;
+}
+
+#menu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#news-list {
+	width: 50%;
+	height: 1400px;
+	overflow-y: scroll;
+}
+
+header {
+	font-size: 1.8em;
+	padding: 0.6em 2em;
+	background-color: #f9f9f9;
+	height: 100px;
+}
+
+#news-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.news {
+	padding: 2em;
+	width: 50%;
+	box-sizing: border-box;
+	border: 1px solid #eaeaea;
+	height: 650px;
+}
+
+.badge {
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0.3em;
+	border-radius: 10%;
+	margin: 20px 0;
+}
+
+.news-badge {
+	background-color: #98DC62;
+}
+
+.team-badge {
+	background-color: #DC5E53;
+}
+
+.work-badge {
+	background-color: #0766F0;
+}
+
+.news-title {
+	font-size: 2em;
+}
+
+.news-meta {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	padding: 2em 0;
+}
+
+.avatar {
+	width: 30px;
+}
+
+.news-info {
+	margin-top: 14px;
+	margin-left: 20px;
+}
+
+.news-excerpt {
+	width: 80%;
+	font-size: 1.2em;
+}
+
+a.news-link:link, a.news-link:visited {
+	text-decoration: underline;
+	color: #007bff;
+	font-weight: bold;
+}
+
+a.news-link:hover {
+	color: #0056b3;
+}
